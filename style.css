@@ -4,7 +4,11 @@
     font-family:  Times, 'Times New Roman', serif;
     font-style: bold;
     text-align: center;
-   
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+
 }
 .header{
 text-align: center;
@@ -13,6 +17,7 @@ font-style: bold;
 .header-body{
     text-align: center;
     font-style: oblique;
+
 }
 
 .container{
@@ -53,4 +58,18 @@ body {
 .topnav a.active {
   background-color: darkblue;
   color: white;
+}
+
+.formText{
+  padding-left: 30px; 
+  padding-right: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.waiverBorder{
+  border: 3px black;
+    border-style: solid;
+    font-family:  Times, 'Times New Roman', serif;
+    font-style: bold;
+    text-align: center;
+    color: red;
 }
