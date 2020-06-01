@@ -12,6 +12,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
+<script defer src="main.js"></script>
 </head>
 <body>
     <div class="header"> 
@@ -22,7 +24,7 @@
 
             <div class="nav">
                 <a  href="index.html">Home</a>
-                <a class="active" href="instruction.html">Instructions</a>
+                <a class="header-active" href="instruction.html">Instructions</a>
                 <a href="waiver.html">Waiver</a>
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
@@ -42,7 +44,8 @@
     <iframe src="donning.pdf" class="instruction"></iframe>
     
 </div>
-<input type="button" onClick="location.href='waiver.html'" value='Im ready to read the waiver!' >
+<button rel="stylesheet" class="learn-more" onclick="window.location.href='waiver.html'">Im ready to read the waiver!</button>
+<!-- <input type="button" onClick="location.href='waiver.html'" value='Im ready to read the waiver!' > -->
 
  
 <style>
@@ -65,7 +68,6 @@
 ::-webkit-scrollbar-thumb:hover{
     background: #dec71d;
 }
-
 
 input[type=button]{
     

@@ -2,7 +2,7 @@
 //lightbox
 const lightbox = document.createElement('div')
 lightbox.id  = 'lightbox'
-document.box.appendChild(lightbox)
+document.querySelector('.grid').appendChild(lightbox)
 
 
 const images = document.querySelectorAll('img')
