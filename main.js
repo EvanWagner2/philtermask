@@ -52,6 +52,8 @@ function saveInput(name, initials, printedName, date){
     });
 }
 
-function clearInputs(name, initials, printedName, date){
+function clearInputs(name, initials, printedName, date, email, msg){
     
 }
+
+

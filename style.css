@@ -43,12 +43,14 @@ border-radius: 10px;
 .header a:hover{
   background-color: #ddd;
   color: black;
+  border-radius: 20px;
 }
 
 
 .active{
   background-color: #18455c;
   color: darkblue;
+  border-radius: 30%;
 }
 
 .inner-header{
@@ -132,8 +134,48 @@ color: #03fce3;
 
 }
 
-.button1{
+.button{
   background-color:#b04f98;
   border-radius: 10px;
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+  align-content: center;
+  grid-gap: 10px;
+}
+.box{
+  margin: 0;
+}
+.grid img{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
   
+#lightbox{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+}
+
+#lightbox.active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#lightbox img{
+  max-width: 90%;
+  max-height: 80%;
+  padding: 4px;
+  background-color: black;
+  border: 2px solid white;
+}
