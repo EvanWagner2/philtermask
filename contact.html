@@ -26,8 +26,6 @@
                 <a href="waiver.html">Waiver</a>
                 <a href="about.html">About</a>
                 <a class="active" href="contact.html">Contact</a>
-                
-              
             </div> 
         </div>
         
@@ -41,8 +39,22 @@
                 <ul>
                     <li>New York City</li>
                     <li>Email: philtermask@gmail.com </li>
-                    <li>12345678</li>
                 </ul>
+            </div>
+            <div class="contact">
+                <h3>Email Us</h3>
+                <form id="contactForm" class="formText" onsubmit="formSubmit()" data-netlify="true">
+                    <div>
+                        <label>Name:</label>
+                        <input type="name" name="name" >
+                    </div>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email" name="email">
+                    </div>
+                    <button type="submit" onsubmit="formSubmit(), clearInputs()"required>Submit</button>
+                </form>
+
             </div>
     
 </body>
