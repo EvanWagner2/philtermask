@@ -242,7 +242,7 @@ button.learn-more:active::before {
 .box2{
   height: 200px;
   width: 500px;
-  z-index: 0;
+  
  position: center;
   border: 2px solid #1adf00;
   background-color: #1adf00;
@@ -257,16 +257,13 @@ button.learn-more:active::before {
 
 .pass{
   color: white;
-  
-  
-  
 }
 
-.div p span{
+.div > p > span{
   color: #404dff;
 }
 
-.div h3 {
+.div > h3 {
   
   font-size: 30px;
   
