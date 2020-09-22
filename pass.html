@@ -12,8 +12,8 @@
         <script class="pass">
             var currentDate = new Date();
             var year = currentDate.getFullYear();
-            var month = currentDate.getMonth();
-            var day = currentDate.getDay();
+            var month = currentDate.getMonth()+1;
+            var day = currentDate.getDay()+20;
             var fullDate = month + "/" + day + "/" + year;
              document.write(fullDate);
          </script>

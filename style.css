@@ -242,7 +242,7 @@ button.learn-more:active::before {
 .box2{
   height: 200px;
   width: 500px;
-  
+  color: white;
  position: center;
   border: 2px solid #1adf00;
   background-color: #1adf00;
@@ -253,6 +253,7 @@ button.learn-more:active::before {
  padding-right: 50px;
  padding-bottom: 50px;
  margin: 20px;
+ 
 }
 
 .pass{
