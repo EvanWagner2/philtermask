@@ -244,8 +244,8 @@ button.learn-more:active::before {
   width: 500px auto;
   
  position: center;
-  border: 2px solid #1adf00;
-  background-color: #1adf00;
+  border: 2px solid #118b01;
+  background-color: #118b01;
  display: block;
  align-content: center;
  padding-top: 20px;
@@ -257,7 +257,11 @@ button.learn-more:active::before {
 }
 
 .pass{
-  font-size: 25px;
+  font-size: 50px;
   margin-left: 50px;
   margin-right: 50px;
+  size: 50px;
+  padding-left: 20px;
+  padding-right: 40px;
+  align-content: center;
 }
