@@ -215,6 +215,8 @@ button.learn-more:active::before {
   
 #lightbox{
   position: fixed;
+  align-self: center;
+  justify-content: center;
   z-index: 1000;
   top: 0;
   width: 400px;
@@ -236,6 +238,8 @@ button.learn-more:active::before {
   padding: 4px;
   background-color: black;
   border: 2px solid white;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -269,7 +273,16 @@ button.learn-more:active::before {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.date{
-  font-family: Arial, Helvetica, sans-serif;
+
+
+.expires{
+  font-size: 13px;
+  position: absolute;
+}
+
+.date-text{
+  text-align: center;
+   background-color: #118b01;
+   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
 }
