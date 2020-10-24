@@ -216,7 +216,7 @@ button.learn-more:active::before {
 #lightbox{
   position: fixed;
   align-self: center;
-  justify-content: center;
+  align-content: center;
   z-index: 1000;
   top: 0;
   width: 400px;
@@ -238,8 +238,6 @@ button.learn-more:active::before {
   padding: 4px;
   background-color: black;
   border: 2px solid white;
-  justify-content: center;
-  align-items: center;
 }
 
 
