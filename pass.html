@@ -19,37 +19,25 @@
 
         <h3 style="height: 60px; text-align: center; color: white; font-size:50px; font-family: Arial, Helvetica, sans-serif; background-color: #118b01;" id = 'demo' onclick="myFunction()">Tap Me!</h3> 
     </div>
-<script>
+        <script>
 
-    function myFunction() {
+        function myFunction() {
+        var d = new Date();
+        var year = d.getFullYear();
+        var month = d.getMonth() + 1;
+        var day = d.getDate();
+        var res =
     
-    var d = new Date();
-    
-    var year = d.getFullYear();
-    
-    var month = d.getMonth() + 1;
-    
-    var day = d.getDate();
-    
-    var res =
-    
-     String(month) + "/" +
-     String(day) + "/" +
-     String(year);
+        String(month) + "/" +
+        String(day) + "/" +
+        String(year);
     
      document.getElementById("demo").innerHTML = res;
     }
     </script>
-         
-        <h2 class="expires">Pass expires at 12:00 midnight</h2>
+    <h3 class="expire">Pass expires at 12:00 midnight</h3>
     
-         </div>
+     </div>
          <p style="font-family: Arial, Helvetica, sans-serif;">Show this pass to HSS Security at the entrance. Please continue to follow safety precautions. If you experience any symptoms throughout the workday, contact your manager and OHS at <a href="tel:212.606.1389" style="color: #404dff">212.606.1389</a></p>
 </body>
-<script>
-    function touch(){
-        day+1;
-    }
-</script>
-
 </html>
